@@ -1,0 +1,125 @@
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
+
+
+
+
+
+
+
+li:first-child {
+  
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(131, 125, 125);
+}
+
+li:nth-child(even) {
+  background-color: white; 
+}
+
+
+
+
+input:focus {
+  border: 2px solid blue;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+label:hover {
+  color: #333;
+}
+
+input:disabled {
+  border: none;
+}
+
+
+
+
+div p:first-child {
+  font-size: 1.2em;
+}
+
+div:empty {
+  min-height: 10px;
+  background-color: gray;
+}
+
+
+
+
+
+th {
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+table, th, td {
+  border-color: #c5bdbd;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+thead tr:first-child th:nth-child(2) {
+  font-size: 2em;
+  color: blue;
+}
+
+tbody tr:nth-child(even) {
+  background: #FCB941;
+}
+tbody tr:nth-child(odd) {
+  background: #F1654C;
+}
+
+
+
+
+tbody tr:nth-child(odd) td:first-child {
+  background: #7E3661;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) td:first-child {
+  background: #888888;
+  color: #fff;
+}
+
+tbody tr:nth-child(odd) td:last-child {
+  background: #8870FF;
+  color: #fff;
+}
+
+th[rowspan]:last-child {
+  border-right: none;
+  border-top: none;
+}
+
